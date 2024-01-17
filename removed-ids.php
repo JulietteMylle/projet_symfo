@@ -1,6 +1,6 @@
 <?php
 
-namespace ContainerQZGqac0;
+namespace ContainerCUs4ijf;
 
 return [
     '.1_ServiceLocator~uAiuuPj' => true,
@@ -194,6 +194,8 @@ return [
     '.twig.command.debug.lazy' => true,
     '.twig.command.lint.lazy' => true,
     '.var_dumper.command.server_dump.lazy' => true,
+    'App\\Controller\\DefaultController' => true,
+    'App\\Entity' => true,
     'Doctrine\\Bundle\\DoctrineBundle\\Dbal\\ManagerRegistryAwareConnectionProvider' => true,
     'Doctrine\\Common\\Persistence\\ManagerRegistry' => true,
     'Doctrine\\DBAL\\Connection' => true,
